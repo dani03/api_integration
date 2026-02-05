@@ -60,13 +60,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-
-Page / Layout,Détails de la migration (Max 5 points)
-Base layout,• Migration des slots vers la nouvelle syntaxe Vue 3.• Refactorisation de la structure en Composition API.• Mise à jour des hooks du cycle de vie (ex: mounted vers onMounted).• Validation de la stabilité de l'ossature globale de l'app.• Test de la réactivité des éléments de navigation.
-Datatable layout,"• Migration de la logique complexe de tri et pagination.• Adaptation des composants de tableau aux nouvelles API.• Optimisation de la réactivité des jeux de données volumineux.• Séparation de la logique de fetch dans des ""Composables"".• Tests de non-régression sur l'affichage des colonnes."
-Form layout,• Migration complète du système de validation (ex: Vuelidate).• Adaptation des v-model (changement majeur en Vue 3).• Centralisation de la logique de soumission asynchrone.• Nettoyage des watchers pour une meilleure performance.• Standardisation de la gestion des messages d'erreur.
-Home,• Passage au format <script setup> pour plus de clarté.• Migration des appels API vers le nouveau standard.• Mise à jour du store (Vuex vers Pinia ou Composition API).• Vérification des redirections et du routage.• Tests de chargement initial de l'application.
-Profile,• Refactorisation de la gestion des données utilisateur.• Simplification de la logique réactive de modification.• Mise à jour des formulaires de changement de mot de passe.• Adaptation du stockage local (Local/Session Storage).• Validation de la sécurité des accès.
-My authorizations,• Refonte de la logique de calcul des droits d'accès.• Création d'un composable dédié aux permissions réutilisable.• Gestion du chargement asynchrone des droits.• Nettoyage de la dette technique (code obsolète Vue 2).• Tests de l'interface utilisateur (UI).
-Request new auth.,• Tâche critique : Réécriture de la logique de formulaire complexe.• Migration des validations imbriquées et conditionnelles.• Gestion des états multi-étapes (steppers).• Optimisation du rendu pour éviter les ralentissements.• Tests complets du workflow de soumission.
-Audit / Resources,"• Factorisation des patterns répétitifs via des ""Composables"".• Optimisation de l'affichage des gros volumes de logs.• Adaptation des filtres de recherche temporels.• Sécurisation de la récupération des données sensibles.• Mise à jour des composants de visualisation (graphiques/listes)."
