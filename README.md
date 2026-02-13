@@ -60,3 +60,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+<div class="p-6">
+    <div class="inline-flex items-stretch overflow-hidden rounded-md shadow-sm border border-black/10 font-sans">
+      
+      <div class="bg-black text-white px-4 py-2 text-sm font-semibold flex items-center tracking-wide">
+        Global Approver
+      </div>
+
+      <div class="bg-[#a28a1f] px-3 py-2 flex items-center justify-center border-l border-white/10">
+        <i class="pi pi-key text-white text-xs"></i>
+      </div>
+      
+      <div class="bg-[#2b59ad] px-3 py-2 flex items-center justify-center border-l border-white/10 text-white">
+        <i class="pi pi-lock text-white text-xs"></i>
+      </div>
+
+    </div>
+  </div>
